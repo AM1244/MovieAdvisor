@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <style type="text/css">
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px;color: darkblue} 
+       html {
+            background:url(images/Movies1.jpg) no-repeat top center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            
+}
+        
+    </style>
+    
+<title>Movie Advisor></title>
+<body>
+    <h1 align="center"><b>  Movie Advisor</b> </h1>
+    <form method="POST" action="SelectMovie.do">
+      Select type of movie!<br>
+    Type:
+    <select name="type" size="1">
+      <option value="Thriller">Thriller</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Adventure">Adventure</option>
+    </select>
+    <br><br>
+    <center>
+        <input type="Submit">
+    </center>
+   </form>
+</body>
+</html>
